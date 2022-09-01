@@ -139,7 +139,7 @@ export default function Home() {
       />
       <div>
         <div className={stl.c5}>
-          {currentGames?.map((e) => {
+          {currentGames.map((e) => {
             return (
               <Link className={stl.card} to={`/videogames/${e.id}`}>
                 <GameCard
