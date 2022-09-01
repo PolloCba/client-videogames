@@ -1,4 +1,12 @@
 import axios from "axios";
+import {
+  URL_GET_ALL_GAMES,
+  URL_GET_ALL_GENRES,
+  URL_GET_ALL_PLATFORMS,
+  URL_POST_GAME,
+  URL_SEARCH_BY_ID,
+  URL_SEARCH_BY_NAME,
+} from "../constants";
 export const GET_VIDEOGAMES = "GET_VIDEOGAMES";
 export const GENRES_FILTER = "GENRES_FILTER";
 export const GET_GENRES = "GET_GENRES";
