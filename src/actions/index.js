@@ -62,7 +62,7 @@ export function getGenres() {
 export function getDetail(id) {
   return async function (dispatch) {
     try {
-      var json = await axios.get(URL_SEARCH_BY_ID + id);
+      var json = await axios.get(URL_SEARCH_BY_ID);
       return dispatch({
         type: GET_DETAILS,
         payload: json.data,
