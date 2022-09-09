@@ -2,7 +2,7 @@ const baseUrl = "https://henry-videogameapp.herokuapp.com";
 
 export const URL_SEARCH_BY_NAME = `${baseUrl}/videogames?name=`;
 
-export const URL_SEARCH_BY_ID = `${baseUrl}/videogame/`;
+export const URL_SEARCH_BY_ID = `${baseUrl}/videogame`;
 
 export const URL_GET_ALL_GAMES = `${baseUrl}/videogames`;
 
